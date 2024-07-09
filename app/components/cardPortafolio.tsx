@@ -69,7 +69,7 @@ export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,ur
 
 
     return(
-        <div className="flex-col h-[650px] mt-40 mb-52 ">
+        <div className="flex-col h-[650px] mt-72 sm:mt-40 mb-52 ">
 
             <div className={`flex flex-col ${id%2 ==1? "justify-center items-center sm:justify-start sm:items-start" : "justify-center items-center sm:mb-10"} mb-0 h-[200px]`}>
                 <h1 className={`text-center sm:text-start text-4xl sm:text-6xl font-semibold`}>{title}</h1>
@@ -81,8 +81,8 @@ export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,ur
 
             <div className={`flex flex-col-reverse ${id%2 == 1? "items-center sm:items-start sm:flex-row" : "sm:flex-row-reverse"} sm:h-[450px] sm:mt-5 `}>
                 <div className="relative sm:w-1/2 flex flex-col sm:h-full">
-                    <p className="text-sm mt-2 sm:mt-0 font-normal sm:text-xl sm:font-extralight dark:text-zinc-400">{desc2}</p>
-                    <h1 className="text-center sm:text-start mt-5 sm:mt-8 text-sm sm:text-lg">Tecnologias implementadas</h1>
+                    <p className="text-base text-center sm:text-start mt-2 sm:mt-0 font-normal sm:text-xl sm:font-extralight dark:text-zinc-400">{desc2}</p>
+                    <h1 className="text-center sm:text-start mt-5 sm:mt-8 text-base sm:text-lg">Tecnologias implementadas</h1>
                     <div className="flex flex-wrap justify-center sm:justify-start sm:items-start gap-x-2 gap-y-2 sm:gap-x-5 mt-2 sm:gap-y-5 ">
                       {
                         tec.map((array : any) =>{
@@ -94,7 +94,7 @@ export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,ur
                                             className="rounded-sm w-5 h-5 sm:w-7 sm:h-8 object-contain"
                                             src={array[1]}
                                         />
-                                        <h1 className="font-light text-sm sm:text-sm">{array[0]}</h1>
+                                        <h1 className="font-light text-base sm:text-sm">{array[0]}</h1>
                                     </div>
                                 </Card>
                             )
@@ -103,10 +103,10 @@ export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,ur
                     </div>
                     <div className="sm:absolute sm:bottom-0 sm:left-0 flex justify-center gap-x-5 mt-8 sm:mt-0 sm:mb-5">
                       {
-                        repo != "" ? <a href={repo} target="_blank"><Button variant="faded" color="default" className="bg-opacity-80" size={isMovil < 430? "md" : "lg"}>Repositorio<Github size={20} /></Button></a> : ""
+                        repo != "" ? <a href={repo} target="_blank"><Button variant="faded" color="default" className="bg-opacity-80" size={"lg"}>Repositorio<Github size={20} /></Button></a> : ""
                       }
                         <a href={url} target="_blank">
-                        <Button variant="faded" color="default" size={isMovil < 430? "md" : "lg"}>Demo <SquareArrowOutUpRight size={16} /></Button></a>
+                        <Button variant="faded" color="default" size={"lg"}>Demo <SquareArrowOutUpRight size={16} /></Button></a>
                     </div>
 
                 </div>
