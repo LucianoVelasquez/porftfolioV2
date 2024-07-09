@@ -3,7 +3,7 @@ import { AtSign, ExternalLink, Github, Linkedin } from "lucide-react";
 
 export default function FooterSec(){
     return(
-        <div className="flex flex-col justify-center items-center mt-60">
+        <div className="flex flex-col justify-center items-center mt-[550px] sm:mt-60">
             <h1 className="text-5xl sm:text-6xl font-extrabold">Contactame</h1>
             <h2 className="text-lg sm:text-xl mt-2 text-zinc-400">Por algunos de estos medios</h2>
             

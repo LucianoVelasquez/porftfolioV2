@@ -18,7 +18,7 @@ export default function PorfolioSec2(){
     },[])
 
     return(
-        <div className='mi_section3 rounded-none sm:absolute sm:right-0 w-screen overflow-clip h-60'>
+        <div className='mi_section3 rounded-none absolute right-0 w-screen overflow-clip h-60 '>
             <Card isBlurred  className='px-3 sm:px-36 h-60 border-t border-b rounded-none dark:border-zinc-900 '>
               <CardBody className=' flex justify-center items-start'>
                 <h1 className='text-4xl sm:text-6xl '>Para ver mas</h1>

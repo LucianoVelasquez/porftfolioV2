@@ -26,7 +26,7 @@ import CardPortafolio from "./cardPortafolio";
       typo:"Full Stack - React & API Spring",
       img: ["https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/884shots_so.png"],
       desc: `Proyecto individual que consistió en crear una API REST con Spring Boot 3, implementando métodos de seguridad como Spring Security y JWT para proteger los diferentes endpoints.`,
-      desc2: `Además, se documentó toda la aplicación con Swagger UI. También se desarrolló un sistema de login utilizando React, permitiendo a los usuarios autenticarse para acceder a los endpoints protegidos, con deploy completo realizado en AWS.`,
+      desc2: `Además, se documentó toda la aplicación con Swagger UI. También se desarrolló un sistema de login utilizando React, con deploy completo realizado en AWS.`,
       tec: [
         ["Java","https://www.svgrepo.com/show/452234/java.svg"],
         ["Spring Boot","https://www.svgrepo.com/show/376350/spring.svg"],
