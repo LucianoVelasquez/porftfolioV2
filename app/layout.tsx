@@ -7,7 +7,7 @@ import { Providers } from "./components/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VelDev",
+  title: "Vel Dev",
   icons:{
     icon: "/icon.png"
   }
