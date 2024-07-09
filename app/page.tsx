@@ -8,9 +8,9 @@ import FooterSec from './components/footer';
 /* eslint-disable no-undef */
 export default function Home() {
   return (
-      <div className='overflow-x-hidden'>
+      <div className='overflow-hidden'>
     
-        <section className="h-screen mi_section">
+        <section className="sm:h-screen mi_section">
           <Header></Header>
           <Hero></Hero>
         </section>
@@ -28,7 +28,7 @@ export default function Home() {
           <PorfolioSec2></PorfolioSec2>
         </section>
         
-        <section id='contactame' className="h-screen px-3 sm:px-36 flex justify-center items-center">
+        <section id='contactame' className="h-screen px-3 sm:px-36 flex justify-center items-center mt-[500px] sm:mt-0">
           <FooterSec></FooterSec>
         </section>
 
