@@ -23,7 +23,7 @@ export default function Home() {
         </section>
  
       
-       <section id='proyectos' className="relative sm:static h-auto px-3 lg:px-24 laptop:px-36 fullhd:px-96  flex-col ">
+       <section id='proyectos' className="relative sm:static h-auto px-3 lg:px-24 laptop:px-36 fullhd:px-80 flex-col ">
           <Porfolio></Porfolio> 
           <PorfolioSec2></PorfolioSec2>
         </section>

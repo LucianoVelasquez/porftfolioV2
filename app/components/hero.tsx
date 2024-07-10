@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <div className="flex sm:flex-row flex-col-reverse h-full lg:px-24 laptop:px-36 fullhd:px-96 px-3 z-0 justify-center w-full items-center mt-10 sm:mt-0">
+    <div className="flex sm:flex-row flex-col-reverse h-full lg:px-24 laptop:px-36 fullhd:px-80 px-3 z-0 justify-center w-full items-center mt-10 sm:mt-0">
 
         <div className="h-5/6 mt-10 sm:mt-8 w-full flex flex-col justify-center items-center sm:items-start text-4xl sm:text-6xl">
             <h1 className="font-semibold text-nowrap xl:text-6xl">Luciano Velasquez</h1>

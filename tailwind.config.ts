@@ -17,7 +17,8 @@ const config: Config = {
       },
       screens:{
         laptop: '1440px',
-        fullhd: '1980px'
+        
+        fullhd: '1800px'
       }
     },
   },
