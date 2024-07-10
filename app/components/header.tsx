@@ -29,7 +29,7 @@ export default function Header() {
         
         <NavbarBrand>
         <a href="#contactame"><Button variant="light" color="default" >Contactame</Button></a>
-        <Button variant="light" color="secondary" >Descargar CV</Button>
+        <a href="https://drive.google.com/file/d/1aeFys8TwzQiJ6DVbvX8xydCROfRdNNpt/view" target="_blank"><Button variant="light" color="secondary" >Descargar CV</Button></a>
         </NavbarBrand>
 
         <NavbarMenu>
