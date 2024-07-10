@@ -131,7 +131,7 @@ export default function Content() {
                     </div>
                 </div>
         </motion.div>
-        <div className="flex flex-col sm:flex-row md:flex justify-center mx-9 sm:mx-0 gap-y-4 sm:gap-y-0 sm:gap-x-12 sm:w-3/4 h-44 mt-72 sm:mt-64 sm:ml-28">
+        <div className="flex flex-col sm:flex-row sm:flex justify-center mx-9 sm:mx-0 gap-y-4 sm:gap-y-0 sm:gap-x-12 sm:w-full h-44 mt-72 sm:mt-64 ">
                 <div>
                     <img alt="content" className="object-center h-full w-full" src="https://camo.githubusercontent.com/3d602bca6bd96f05fa9cf2e3edaec5da9ad4b90862f1609ac32b028283235f83/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4c756369616e6f56656c61737175657a2673686f775f69636f6e733d7472756526636f756e745f707269766174653d7472756526686964655f626f726465723d74727565"></img>
                 </div>
