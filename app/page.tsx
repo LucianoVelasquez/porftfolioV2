@@ -15,7 +15,7 @@ export default function Home() {
           <Hero></Hero>
         </section>
         
-        <section className="h-auto relative px-3 sm:px-36 mi_section2">
+        <section className="h-auto relative px-3 lg:px-12 mi_section2">
           <div className='absolute -top-7 w-10/12 h-10 bg-background blur hidden sm:flex'></div>
           <Cards></Cards>
           <Content></Content>
@@ -23,15 +23,15 @@ export default function Home() {
         </section>
  
       
-       <section id='proyectos' className="relative sm:static h-auto px-3 sm:px-36 flex-col ">
+       <section id='proyectos' className="relative sm:static h-auto px-3 lg:px-24 laptop:px-36 fullhd:px-96  flex-col ">
           <Porfolio></Porfolio> 
           <PorfolioSec2></PorfolioSec2>
         </section>
         
         <section id='contactame' className="h-screen px-3 sm:px-36 flex justify-center items-center mt-[500px] sm:mt-0">
           <FooterSec></FooterSec>
-        </section>
-
+        </section> 
+ 
       
       </div>
   );
