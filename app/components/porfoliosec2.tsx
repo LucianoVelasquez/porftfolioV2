@@ -26,8 +26,8 @@ export default function PorfolioSec2(){
                 <div className="flex gap-x-3 sm:gap-x-5">
                   <Button variant='ghost' size={isMovil < 425? "md" : "lg"} color='secondary' className='rounded-full  mt-8' >Ver todos
                   <MoveRight size={20}/></Button>
-                  <Button variant='solid' color='warning' className='rounded-full  mt-8' size={isMovil < 425? "md" : "lg"}>Descargar CV
-                  <Download size={20} /></Button>
+                  <a href="https://drive.google.com/file/d/1aeFys8TwzQiJ6DVbvX8xydCROfRdNNpt/view" target="_blank"><Button variant='solid' color='warning' className='rounded-full  mt-8' size={isMovil < 425? "md" : "lg"}>Descargar CV
+                  <Download size={20} /></Button></a>
                 </div>
               </CardBody>
             </Card>
