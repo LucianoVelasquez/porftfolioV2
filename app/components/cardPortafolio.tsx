@@ -74,7 +74,7 @@ export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,ur
             <div className={`flex flex-col ${id%2 ==1? "justify-center items-center sm:justify-center sm:items-start " : "justify-center items-center sm:mb-6"}  sm:mb-0 h-[200px]`}>
                 <h1 className={`text-center sm:text-start text-4xl sm:text-6xl font-semibold`}>{title}</h1>
                 <h2 className={`text-center sm:text-start text-3xl sm:text-5xl sm:mt-2 font-semibold`}>{typo}</h2>
-                <div className={`${id%2 ==1? "sm:text-start" : "ml-5 w-8/12 text-center "} text-center flex w-full sm:w-3/4 mt-3 text-base sm:text-xl font-light dark:text-zinc-200 `}>
+                <div className={`${id%2 ==1? "sm:text-start" : "ml-5 w-8/12 text-center "} text-center flex w-full sm:w-[590px] mt-3 text-base sm:text-xl font-light dark:text-zinc-200 `}>
                     <h1>{desc}</h1>
                 </div>
             </div>
@@ -101,7 +101,7 @@ export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,ur
                         })
                       }
                     </div>
-                    <div className=" flex justify-center sm:justify-start items-center gap-x-5 mt-8 laptop:mt-10 sm:mb-10"> {/* sm:absolute sm:bottom-0 sm:left-0 */}
+                    <div className=" flex justify-center sm:justify-start items-center gap-x-5 mt-8 laptop:mt-10 sm:mb-8"> {/* sm:absolute sm:bottom-0 sm:left-0 */}
                       {
                         repo != "" ? <a href={repo} target="_blank"><Button variant="faded" color="default" className="bg-opacity-80" size={"lg"}>Repositorio<Github size={20} /></Button></a> : ""
                       }
