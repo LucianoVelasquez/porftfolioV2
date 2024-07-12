@@ -1,6 +1,6 @@
 import CardPortafolio from "./cardPortafolio";
 
-  const cards2 =  [
+  export const cards2 =  [
     {
       id: 1,
       title: "Proyecto Individual",
@@ -42,6 +42,7 @@ import CardPortafolio from "./cardPortafolio";
       ],
       url: "https://springboot-api-wfnm.onrender.com/swagger-ui/index.html",
       repo: "https://github.com/LucianoVelasquez/springboot-API",
+      viewTec: ["JavaScript","Vite","NodeJs","PostgreSQL","Tailwind"]
     },
     {
       id: 3,
