@@ -14,6 +14,7 @@ import {
 import img from "@/public/es.png";
 import Image from "next/image";
 import { ThemeSwitcher } from "./ThemeSwitcher";
+import { ExternalLink } from "lucide-react";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(true);
@@ -28,7 +29,8 @@ export default function Header() {
       <NavbarContent justify="start">
         
         <NavbarBrand>
-        <a href="#contactame"><Button variant="light" color="default" >Contactame</Button></a>
+        <a href="#contactame" className="hidden sm:flex"><Button variant="light" color="default" >Contactame</Button></a>
+        <Link href="/allproyects" ><Button variant="light">Ver proyectos <ExternalLink size={16} /></Button></Link>
         <a href="https://drive.google.com/file/d/1aeFys8TwzQiJ6DVbvX8xydCROfRdNNpt/view" target="_blank"><Button variant="light" color="secondary" >Descargar CV</Button></a>
         </NavbarBrand>
 
@@ -41,7 +43,7 @@ export default function Header() {
         </NavbarMenu>
       </NavbarContent>
 
-      <NavbarContent justify="end">
+      <NavbarContent className="h-3 w-3 sm:w-auto sm:h-auto" justify="end">
         
         <ThemeSwitcher></ThemeSwitcher>
       </NavbarContent>

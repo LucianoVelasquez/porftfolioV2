@@ -1,10 +1,9 @@
-'use client'
 import {Image} from "@nextui-org/image";
-import {Chip,Avatar, Button, Card, CardHeader, CardFooter, CardBody} from "@nextui-org/react";
+import { Button, Card } from "@nextui-org/react";
 import { Github, SquareArrowOutUpRight } from "lucide-react";
-import { useEffect, useState } from "react";
 
-const handleColor = (name : any) => {
+
+export const handleColor = (name : any) => {
 
     const opacity = "bg-opacity-40 shadow-sm";
 
@@ -55,18 +54,6 @@ const handleColor = (name : any) => {
   
 
 export default function CardPortafolio({id,title,typo,desc,desc2,tec,img,repo,url} : any){
-
-    const [isMovil,setIsmovil] = useState<any>(0);
-
-    useEffect(()=>{
-
-        if (typeof window !== 'undefined') {
-            
-            setIsmovil(window.innerWidth);
-          }
-
-    },[])
-
 
     return(
         <div className="flex-col h-[650px] mt-72 sm:mt-40 mb-52 ">
