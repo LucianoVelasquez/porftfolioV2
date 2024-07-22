@@ -105,6 +105,22 @@ const cards3 =  [
             repo: "https://github.com/LucianoVelasquez/countries-client/tree/main",
             viewTec: ["JavaScript","Vite","NodeJs","PostgreSQL","Tailwind"]
           },
+          {
+            id: 5,
+            title: "Proyecto Individual - Front end",
+            typo:"Portafolio - V1",
+            img: ["https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/131shots_so.png"],
+            desc: "Mi primer portafolio, donde presento todos los proyectos en los que he trabajado y también ofrezco información sobre mi trayectoria profesional.",
+            tec: [
+              ["JavaScript","https://www.svgrepo.com/show/349419/javascript.svg"],
+              ["Vite","https://www.svgrepo.com/show/374167/vite.svg"],
+              ["Tailwind","https://www.svgrepo.com/show/374118/tailwind.svg"],
+              ["React","https://www.svgrepo.com/show/354259/react.svg"],        
+            ],
+            url: "https://veldev01.vercel.app/",
+            repo: "https://github.com/LucianoVelasquez/portfolio",
+            viewTec: ["JavaScript","Vite","React","Tailwind"]
+          },      
         ]
 
 
