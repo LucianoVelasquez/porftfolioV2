@@ -54,7 +54,7 @@
 }
 
 .mi_section{
-  background-image: url("https://nextui.org/gradients/looper-pattern.svg");
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/36dd43df9efd09e2fdc9acf5bcb4f0428f36ab9e/public/looper-pattern.svg");
    /* Ajusta la imagen para que cubra todo el div */
    background-size: cover;
   background-position: center; /* Centra la imagen */
@@ -62,7 +62,7 @@
 }
 
 .mi_section2{
-  background-image: url("https://nextui.org/gradients/blue-purple-1.svg");
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/36dd43df9efd09e2fdc9acf5bcb4f0428f36ab9e/public/blue-purple-1.svg");
    /* Ajusta la imagen para que cubra todo el div */
    background-size: cover;
   background-position: center; /* Centra la imagen */
@@ -70,7 +70,7 @@
 }
 
 .mi_section3{
-  background-image: url("https://nextui.org/gradients/blue-purple-1.svg");
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/36dd43df9efd09e2fdc9acf5bcb4f0428f36ab9e/public/blue-purple-1.svg");
    /* Ajusta la imagen para que cubra todo el div */
   /*  background-size: cover; */
    background-size: 60%;
