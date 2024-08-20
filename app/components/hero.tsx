@@ -3,6 +3,7 @@
 import { Button } from "@nextui-org/react"
 import img from "@/public/es.png"
 import Image from "next/image"
+import { URL_CV_DRIVE } from "@/app/consUtils.ts"
 
 export function Hero() {
   return (
@@ -14,7 +15,7 @@ export function Hero() {
             <h1 className="font-light text-lg sm:text-xl mt-6 text-center sm:text-start">Soy un Dev web con formación en analista de sistemas y experiencia en proyectos full stack, me especializo en el desarrollo <strong>backend</strong> utilizando <strong>Java</strong>.</h1>
             <div className="flex gap-x-5 mt-7">
                 <a href="#proyectos"><Button variant="faded" className="h-[44px] w-40 ">Proyectos</Button></a>
-                <a href="https://drive.google.com/file/d/19RjZX2mVfIQMgwYX5Ai-9ouujXNkWFEA/view?usp=sharing" target="_blank"><Button variant="faded" className="h-[44px] w-40 bg-opacity-80">Descargar CV</Button></a>
+                <a href={URL_CV_DRIVE} target="_blank"><Button variant="faded" className="h-[44px] w-40 bg-opacity-80">Descargar CV</Button></a>
             </div>
         </div>
 
