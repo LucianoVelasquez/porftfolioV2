@@ -15,6 +15,7 @@ import img from "@/public/es.png";
 import Image from "next/image";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { ExternalLink } from "lucide-react";
+import { URL_CV_DRIVE } from "@/app/consUtils.ts"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(true);
@@ -31,7 +32,7 @@ export default function Header() {
         <NavbarBrand>
         <a href="#contactame" className="hidden sm:flex"><Button variant="light" color="default" >Contactame</Button></a>
         <Link href="/allproyects" ><Button variant="light">Ver proyectos <ExternalLink size={16} /></Button></Link>
-        <a href="https://drive.google.com/file/d/1aeFys8TwzQiJ6DVbvX8xydCROfRdNNpt/view" target="_blank"><Button variant="light" color="secondary" >Descargar CV</Button></a>
+        <a href={URL_CV_DRIVE} target="_blank"><Button variant="light" color="secondary" >Descargar CV</Button></a>
         </NavbarBrand>
 
         <NavbarMenu>
