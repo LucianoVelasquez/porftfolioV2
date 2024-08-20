@@ -15,7 +15,7 @@ import img from "@/public/es.png";
 import Image from "next/image";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { ExternalLink } from "lucide-react";
-import { URL_CV_DRIVE } from "@/app/consUtils.ts"
+import { URL_CV_DRIVE } from "@/app/consUtils"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(true);
