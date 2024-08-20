@@ -3,7 +3,7 @@ import { Button, Card, CardBody } from "@nextui-org/react";
 import { Download, MoveRight } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+import { URL_CV_DRIVE } from "@/app/consUtils.ts"
 
 export default function PorfolioSec2(){
 
@@ -27,7 +27,7 @@ export default function PorfolioSec2(){
                 <div className="flex gap-x-3 sm:gap-x-5">
                 <Link href="/allproyects" ><Button variant='ghost' size={isMovil < 425? "md" : "lg"} color='secondary' className='rounded-full  mt-8' >Ver todos
                   <MoveRight size={20}/></Button></Link>
-                  <a href="https://drive.google.com/file/d/1aeFys8TwzQiJ6DVbvX8xydCROfRdNNpt/view" target="_blank"><Button variant='solid' color='warning' className='rounded-full  mt-8' size={isMovil < 425? "md" : "lg"}>Descargar CV
+                  <a href={URL_CV_DRIVE} target="_blank"><Button variant='solid' color='warning' className='rounded-full  mt-8' size={isMovil < 425? "md" : "lg"}>Descargar CV
                   <Download size={20} /></Button></a>
                 </div>
               </CardBody>
