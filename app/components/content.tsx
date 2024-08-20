@@ -35,7 +35,7 @@ export default function Content() {
        
       const SilVariants : any = {
         initial: {
-          x: "100%",
+          x: "80%",
         },
         animate: {
           x: "-105%",
