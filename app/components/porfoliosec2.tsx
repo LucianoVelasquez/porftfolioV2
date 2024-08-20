@@ -3,7 +3,7 @@ import { Button, Card, CardBody } from "@nextui-org/react";
 import { Download, MoveRight } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { URL_CV_DRIVE } from "@/app/consUtils.ts"
+import { URL_CV_DRIVE } from "@/app/consUtils"
 
 export default function PorfolioSec2(){
 
