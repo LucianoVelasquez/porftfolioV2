@@ -3,7 +3,7 @@
 import { Button } from "@nextui-org/react"
 import img from "@/public/es.png"
 import Image from "next/image"
-import { URL_CV_DRIVE } from "@/app/consUtils.ts"
+import { URL_CV_DRIVE } from "@/app/consUtils"
 
 export function Hero() {
   return (
