@@ -77,12 +77,6 @@ export default function Content() {
                     </div>
                     <div className="flex-none">
                     <img
-                        className="h-28 w-20 mr-5"
-                        src="https://www.svgrepo.com/show/452234/java.svg"
-                    ></img>
-                     </div>
-                    <div className="flex-none">
-                    <img
                         className="h-32 w-24 mr-5"
                         src="https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg"
                     ></img>
@@ -115,12 +109,6 @@ export default function Content() {
                     <img
                         className="h-28 w-20 mr-5"
                         src="https://www.svgrepo.com/show/354200/postgresql.svg"
-                    ></img>
-                    </div>
-                    <div className="flex-none">
-                    <img
-                        className="h-28 w-20 mr-5"
-                        src="https://www.svgrepo.com/show/376350/spring.svg"
                     ></img>
                     </div>
                     <div className="flex-none">
