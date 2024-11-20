@@ -196,7 +196,7 @@ export default function Page(){
     <section className="relative flex flex-col gap-x-6 lg:min-h-screen h-screen items-center">
 
         <div className="flex p-5 w-full justify-evenly items-center flex-col-reverse gap-y-3 lg:flex-row lg:gap-y-0 mt-6 sm:gap-x-5 shadow-lg dark:border-b-1 dark:border-zinc-700">
-            <Link href="/"><Button variant="bordered" color="warning"><MoveLeft size={16}/>Volver</Button></Link>
+            <Link href="/"><Button variant="bordered" color="primary"><MoveLeft size={16}/>Volver</Button></Link>
 
             <div className="flex flex-col lg:flex-row lg:gap-y-0 sm:gap-x-5 gap-y-3">
                 <div className="">

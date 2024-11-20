@@ -52,7 +52,7 @@ export default function CardFolio({
           <CardFooter className="z-10 items-end justify-end " >
           <div className=" flex justify-end sm:justify-end items-end gap-x-5 "> {/* sm:absolute sm:bottom-0 sm:left-0 */}
                       {
-                        repo != "" ? <a href={repo} target="_blank"><Button variant="faded" color="secondary" className="bg-opacity-80" size={"lg"}>Para mas Info<Github size={20} /></Button></a> : ""
+                        repo != "" ? <a href={repo} target="_blank"><Button variant="faded" color="primary" className="bg-opacity-80" size={"lg"}>Para mas Info<Github size={20} /></Button></a> : ""
                       }
                         <a href={url} target="_blank">
                         <Button variant="faded" color="default" size={"lg"}>Demo <SquareArrowOutUpRight size={16} /></Button></a>
