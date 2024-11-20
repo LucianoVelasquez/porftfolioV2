@@ -10,7 +10,7 @@ export default function Cards() {
 
       <Card className="py-4 bg-opacity-50 w-auto max-w-[380px] h-[272px]" isHoverable >
         <CardHeader className="pb-0 pt-2 px-4 flex items-center gap-x-3">
-            <Avatar className="mi_filter" src="https://veldev01.vercel.app/assets/avatar1-35abddbb.png" size="lg" />
+            <Avatar className="" src="./avatar.png" size="lg" />
             <h4 className="font-bold text-large">Un poco sobre mi</h4>
         </CardHeader>
         <CardBody className="mt-2 h-full">
