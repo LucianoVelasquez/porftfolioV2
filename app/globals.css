@@ -31,7 +31,7 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 240 10% 4%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -53,24 +53,49 @@
   }
 }
 
-.mi_section{
-  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/36dd43df9efd09e2fdc9acf5bcb4f0428f36ab9e/public/looper-pattern.svg");
+.mi_section_dark{
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/refs/heads/main/public/hero-azul-nergro.png");
    /* Ajusta la imagen para que cubra todo el div */
    background-size: cover;
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat;
 }
 
-.mi_section2{
-  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/36dd43df9efd09e2fdc9acf5bcb4f0428f36ab9e/public/blue-purple-1.svg");
+.mi_section_ligth{
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/refs/heads/main/public/hero-azul-light.png ");
    /* Ajusta la imagen para que cubra todo el div */
    background-size: cover;
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat;
 }
 
-.mi_section3{
-  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/36dd43df9efd09e2fdc9acf5bcb4f0428f36ab9e/public/blue-purple-1.svg");
+.mi_section2_dark{
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/refs/heads/main/public/content-azul-negto.png");
+   /* Ajusta la imagen para que cubra todo el div */
+   background-size: cover;
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+}
+
+.mi_section2_light{
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/refs/heads/main/public/content-azul-light.png");
+   /* Ajusta la imagen para que cubra todo el div */
+   background-size: cover;
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+}
+
+.mi_section3_dark{
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/refs/heads/main/public/content-azul-negto.png");
+   /* Ajusta la imagen para que cubra todo el div */
+  /*  background-size: cover; */
+   background-size: 60%;
+  background-position: left;
+  background-repeat: repeat;
+}
+
+.mi_section3_ligth{
+  background-image: url("https://raw.githubusercontent.com/LucianoVelasquez/porftfolioV2/refs/heads/main/public/content-azul-light.png");
    /* Ajusta la imagen para que cubra todo el div */
   /*  background-size: cover; */
    background-size: 60%;

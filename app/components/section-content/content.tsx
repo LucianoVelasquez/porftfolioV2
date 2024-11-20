@@ -121,10 +121,10 @@ export default function Content() {
         </motion.div>
         <div className="flex flex-col sm:flex-row sm:flex justify-center mx-9 sm:mx-0 gap-y-4 sm:gap-y-0 sm:gap-x-12 sm:w-full h-44 mt-72 sm:mt-64 ">
                 <div>
-                    <img alt="content" className="object-center h-full w-full" src="https://camo.githubusercontent.com/3d602bca6bd96f05fa9cf2e3edaec5da9ad4b90862f1609ac32b028283235f83/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4c756369616e6f56656c61737175657a2673686f775f69636f6e733d7472756526636f756e745f707269766174653d7472756526686964655f626f726465723d74727565"></img>
+                    <img alt="content1" className="object-center h-full w-full" src="https://github-readme-stats.vercel.app/api?username=LucianoVelasquez&show_icons=true&count_private=true&hide_border=true"></img>
                 </div>
                 <div>
-                    <img alt="content" className="object-center h-full w-full" src="https://camo.githubusercontent.com/66159bc23e71eb414ebda45e9e0c4ca4e2c8d0c3623b5a5faf9eee3e3af19e40/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d4c756369616e6f56656c61737175657a26686964655f626f726465723d74727565266c61796f75743d636f6d70616374"></img>
+                    <img alt="content2" className="object-center h-full w-full" src="https://camo.githubusercontent.com/82b3cec2c83d0834f25226278c5ec01fdc5c2d42fd3c85c5ba5285bbe2d1c750/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d4c756369616e6f56656c61737175657a26686964655f626f726465723d74727565266c61796f75743d636f6d70616374"></img>
                 </div> 
         </div>
     </div>

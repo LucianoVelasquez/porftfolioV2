@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./components/providers";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const noto_sans = Noto_Sans({
+  subsets : ["latin"]
+});
 
 export const metadata: Metadata = {
   title: "Vel Dev",
   icons:{
-    icon: "/icon.png"
+    icon: "/icon-new.png"
   }
 };
 
@@ -20,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" >
-      <body className={inter.className}>
+      <body className={noto_sans.className}>
         <Providers>
           
           {children}
