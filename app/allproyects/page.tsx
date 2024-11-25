@@ -34,7 +34,7 @@ const cards3 =  [
           id: 1,
           title: "Proyecto Individual - Full Stack",
           typo:"A&G Ventas",
-          img: ["https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/692shots_so.jpg","https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/41shots_so.jpg","https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/361shots_so.jpg"],
+          img: ["https://raw.githubusercontent.com/LucianoVelasquez/portfolio/refs/heads/main/src/utils/portada.png","https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/41shots_so.jpg","https://raw.githubusercontent.com/LucianoVelasquez/portfolio/main/src/utils/361shots_so.jpg"],
           desc: `Aplicacion web que tiene como objetivo administrar el stock y ventas de productos para pequeños y medianos negocios. `,
           desc2:"Ademas permite la gestion de cuentas corrientes de clientes como la visualicacion de datos semanasles y mensuales tanto de ventas como de deudores.",
           tec: [
